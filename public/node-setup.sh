@@ -24,3 +24,6 @@ nvm install --lts
 
 # Log Node.js version
 node -e "console.log('Running Node.js ' + process.version)"
+
+# Install pm2
+npm install pm2@latest -g
