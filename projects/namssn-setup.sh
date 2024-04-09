@@ -19,8 +19,8 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 # Activate nvm
 . ~/.nvm/nvm.sh
 
-# Install Node.js version 16
-nvm install 16
+# Install the latest LTS version of Node.js
+nvm install --lts
 
 # Log Node.js version
 node -e "console.log('Running Node.js ' + process.version)"
