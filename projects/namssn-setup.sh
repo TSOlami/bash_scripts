@@ -22,6 +22,9 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 # Install Node.js version 16
 nvm install 16
 
+# Log Node.js version
+node -e "console.log('Running Node.js ' + process.version)"
+
 # Clone the github repository
 git clone https://github.com/TSOlami/namssn-website.git
 
