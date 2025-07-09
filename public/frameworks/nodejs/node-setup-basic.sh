@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Basic Node.js Setup Script (Legacy)
+# This is a basic version - use setup.sh for the enhanced version
+
 # Check if running as root
 if [ "$(id -u)" -ne 0 ]; then
     echo "Please run this script as root or using sudo."
